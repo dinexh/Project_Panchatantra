@@ -3,13 +3,72 @@
     --color2:#ffffff;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "poppins";
+    font-family: 'Poppins', sans-serif;
 }
-
+/* body{
+    background: scroll;
+} */
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+}
+nav{
+    padding: 1rem;
+    background-color: #143601;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.nav-in{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-in h1{
+    color: green;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.nav-in-one{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.nav-in-two{
+    width: 50%;
+}
+.nav-in-two-in{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-in-three{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-in-three-in{
+    border-radius: 10px;
+    background-color: green;
+    padding: 0.5rem;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+/* Nav Bar */
 .footer{
     /* width: 100%; */
     background-color: var(--color1);
@@ -27,6 +86,7 @@
 
 .footer-two{
     display: flex;
+    justify-content: space-around;
     align-items: center;
     padding: 1rem 2rem;
     border-bottom: 1px solid rgba(255, 255, 255,0.5);
@@ -64,12 +124,56 @@ i{
     width: 30%;
     object-fit: cover;
     display: flex;
-    justify-content: center;
+}
+/* Footer Ends here */
+/* Hero Starts here */
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
 }
 
-.three-text{
-    width: 70%;
+.slider img {
+    width: 100%;
+    display: none;
+    height: 93vh;
+    /* object-fit: contain; */
+    /* position: absolute; */
 }
 
+img.displaySlide {
+    display: block;
+}
 
+.slider button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.slides{
+    position: relative;
+    /* height: 100vh; */
+}
+.prev {
+    left: 0;
+}
 
+.next {
+    right: 0;
+}
+.text{
+    /* margin-bottom: 2rem;
+    display: flex; */
+    position: absolute;
+    top:50%;
+    left: 80%;
+    font-size: 2rem;
+    color: white;
+}
+/* Hero Ends here */
