@@ -1,6 +1,7 @@
 :root{
     --color1:#143601;
     --color2:#ffffff;
+    --color3:#538D22;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
@@ -202,4 +203,30 @@ img.displaySlide {
     background-color: #1A4301;
     color: white;
     margin-top: 1rem;
+}
+
+.stats-in{
+    background-color: var(--color3);
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.stats-one,.stats-two,.stats-three,.stats-four{
+        color: var(--color2);
+        background-color: var(--color1);
+        text-wrap: wrap;
+        border-radius: 10px;
+        padding: 1rem;
+        text-align: center;
+        width: 15%;
+}
+
+.stats-in p{
+    font-size: 1.5rem;
+}
+
+.count{
+    font-size: 5rem;
+    font-weight: 500;
 }
