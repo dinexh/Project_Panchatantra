@@ -177,3 +177,29 @@ img.displaySlide {
     color: white;
 }
 /* Hero Ends here */
+/* About Plant starts here */
+.About-Plants{
+    background-color: #AAD576;
+    width: 100%;
+
+}
+.About-Plants-in{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+.About-Plants-in-two img{
+    border-radius: 10%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.About-Phants-in-one button{
+    /* border: 10px; */
+    width: 8%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: #1A4301;
+    color: white;
+    margin-top: 1rem;
+}
