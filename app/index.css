@@ -10,6 +10,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+
 /* body{
     background: scroll;
 } */
@@ -18,14 +19,14 @@ html {
     width: 100%;
 }
 nav{
-    padding: rem;
-    background-color: #143601;
+    padding: 0rem;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
 .nav-in{
+    background-color: green;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -177,6 +178,9 @@ img.displaySlide {
     align-items: center;
     padding: 2rem;
 }
+.About-Phants-in-one{
+    width: 50%;
+}
 .About-Plants-in-two img{
     border-radius: 10%;
     border-top-right-radius: 0;
@@ -190,4 +194,55 @@ img.displaySlide {
     background-color: #1A4301;
     color: white;
     margin-top: 1rem;
+}
+.About-Phants-in-one button a{
+    text-decoration: none;
+    color: white;
+}
+/* Events Starts */
+.Events{
+    width: 100%;
+    /* background-color: #73A942; */
+    background-color: #378b29;
+    background-image: linear-gradient(315deg, #378b29 0%, #74d680 74%);
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.Events-in{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Events-in-two{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Events-in-two-in{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Events-box{
+    position: relative;
+    width: 30%;
+}
+.Events-box img{
+    width: 100%;
+    border-radius: 2%;
+}
+.event-box-text{
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background-color: #378b29; */
+    color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
 }
