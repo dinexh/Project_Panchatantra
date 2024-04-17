@@ -217,16 +217,16 @@ img.displaySlide {
         background-color: var(--color1);
         text-wrap: wrap;
         border-radius: 10px;
-        padding: 1rem;
+        padding: 2rem;
         text-align: center;
-        width: 15%;
+        width: 17%;
 }
 
 .stats-in p{
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .count{
-    font-size: 5rem;
+    font-size: 8rem;
     font-weight: 500;
 }
