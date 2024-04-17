@@ -18,7 +18,7 @@ html {
     width: 100%;
 }
 nav{
-    padding: 1rem;
+    padding: rem;
     background-color: #143601;
     display: flex;
     justify-content: center;
@@ -33,7 +33,7 @@ nav{
 }
 .nav-in h1{
     color: green;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 .nav-in-one{
@@ -41,7 +41,6 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: red; */
 }
 .nav-in-two{
     width: 50%;
@@ -60,12 +59,12 @@ nav{
 .nav-in-three-in{
     border-radius: 10px;
     background-color: green;
-    padding: 0.5rem;
+    padding: 0.3rem;
 }
 nav a{
     text-decoration: none;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
 }
 /* Nav Bar */
@@ -145,17 +144,6 @@ img.displaySlide {
     display: block;
 }
 
-.slider button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 2rem;
-    padding: 10px 15px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    cursor: pointer;
-}
 .slides{
     position: relative;
     /* height: 100vh; */
