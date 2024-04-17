@@ -74,25 +74,34 @@ nav a{
 /* Nav Bar */
 .footer{
     /* width: 100%; */
-    background-color: var(--color1);
+    /* background-color: var(--color1); */
     padding: 10px;
     color: var(--color2);
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 .footer-one{
     display: flex;
-    border-bottom: 1px solid rgba(255, 255, 255,0.5);
+    /* border-bottom: 1px solid rgba(255, 255, 255,0.5); */
     padding: 1rem 2rem;
+    width: 50%;
 }
+.footer-one-in{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
 
+}
 .footer-two{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 1rem 2rem;
-    border-bottom: 1px solid rgba(255, 255, 255,0.5);
+    /* border-bottom: 1px solid rgba(255, 255, 255,0.5); */
+    width: 50%;
 }
 
 .footer-three{
@@ -171,7 +180,7 @@ img.displaySlide {
 /* Hero Ends here */
 /* About Plant starts here */
 .About-Plants{
-    background-color: #AAD576;
+    /* background-color: #AAD576; */
     width: 100%;
 
 }
@@ -205,9 +214,6 @@ img.displaySlide {
 /* Events Starts */
 .Events{
     width: 100%;
-    /* background-color: #73A942; */
-    background-color: #378b29;
-    background-image: linear-gradient(315deg, #378b29 0%, #74d680 74%);
     padding: 2rem;
     display: flex;
     justify-content: center;
@@ -250,7 +256,7 @@ img.displaySlide {
     border-radius: 10px;
 }
 .OurAim{
-    background-color: #AAD576;
+    /* background-color: #AAD576; */
     width: 100%;
 }
 .OurAim-in{
@@ -268,7 +274,7 @@ img.displaySlide {
 }
 
 .stats-in{
-    background-color: var(--color3);
+    /* background-color: var(--color3); */
     display: flex;
     justify-content: space-around;
     padding: 2rem 0;
@@ -276,7 +282,7 @@ img.displaySlide {
 
 .stats-one,.stats-two,.stats-three,.stats-four{
         color: var(--color2);
-        background-color: var(--color1);
+        /* background-color: var(--color1); */
         text-wrap: wrap;
         border-radius: 3%;
         padding: 2rem;
@@ -292,15 +298,26 @@ img.displaySlide {
     font-size: 8rem;
     font-weight: 500;
 }
-
-.news-updates-in{
-    background-color:var(--color4);
+/* News and updates starts here */
+.news-updates{
+    width: 100%;
+    /* background-color: var(--color1); */
     padding: 2rem;
+}
+.news-updates-in{
+    /* background-color:var(--color4); */
+    /* padding: 2rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .news-one,.news-two,.news-three{
     width: 30%;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    /* box-shadow: rgb(64, 244, 64) 5px 5px 5px 5px; */
+    /* box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .img-container{
@@ -315,13 +332,14 @@ img.displaySlide {
 }
 
 .news-updates-in>h1{
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
+    font-weight: 600;
 }
 
 .news-info{
     padding: 0 .5rem;
-    background-color: var(--color2);
+    /* background-color: var(--color2); */
     font-weight: 600;
     margin-top: -10px;
 }
@@ -343,8 +361,47 @@ img.displaySlide {
     font-size: 1rem;
     color: var(--color2);
 }
-
-.news-one:hover,.news-two:hover,.news-three:hover{
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    transform: scale(1.05);
+/* Partnership Page */
+.partnership{
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: lightgreen; */
+}
+.partnership-in{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.partnership-heading h1{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.partnership-main{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+.partnership-one{
+    width: 50%;
+    padding: 4rem;
+}
+.partnership-one p{
+    font-size: 1.3rem;
+}
+.partnership-two{
+    width: 50%;
+    /* display: flex */
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partnership-two img{
+    border-radius: 10%;
+    mix-blend-mode: multiply;
 }
