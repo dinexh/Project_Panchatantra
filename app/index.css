@@ -191,3 +191,12 @@ img.displaySlide {
     color: white;
     margin-top: 1rem;
 }
+.head{
+   
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    justify-content: center;  
+    background-color: #AAD576; 
+}

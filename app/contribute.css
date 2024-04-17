@@ -8,12 +8,16 @@
 body{
     width: 100%;
     height: 100vh;
+    background-image: url(/Assets/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
       
 }
 .main{
     display: flex;
     flex-direction: row;
-
+    color: white;
 }
 nav{
     position: fixed;
@@ -21,32 +25,32 @@ nav{
 .form{
     width: 60%;
     height: 100vh;
-    padding-top: 15rem;
+    margin: auto;
+    padding-top: 5rem;
     display: flex;
     flex-direction: column;
     align-items: center ;
     justify-content: center;
-}
-
-.head{
-    width: 40%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;   
+    font-size: 1.2rem;
 }
 .name{
     height: 2rem;
     width: 20rem;
-    margin: 0.5rem;
+    margin: 0.2rem;
+    border-radius: 1rem;
+    border: none;
+    padding:0.1rem;
 }
 .names{
-    margin: 0.5rem;
+    margin: 0.3rem;
 }
 .Gender{
     margin: 0.5rem;
 }
 #female{
     margin: 0.5rem;
+}
+button{
+    border: none;
 }
 
