@@ -246,3 +246,20 @@ img.displaySlide {
     padding: 0.5rem;
     border-radius: 10px;
 }
+.OurAim{
+    background-color: #AAD576;
+    width: 100%;
+}
+.OurAim-in{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 2rem; */
+    /* margin: 1rem; */
+    text-align: center;
+}
+
+.OurAim-in-One img{
+   width: 110vh;
+   height: 70vh;
+}
