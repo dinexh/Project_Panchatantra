@@ -10,6 +10,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: #f0f0f0;
 }
 .form{
     width: 50%;
@@ -37,6 +38,9 @@ button{
     justify-content: center;  
     /* background-color:red; */
     margin-top: 2rem;
+}
+.head img{
+        mix-blend-mode: multiply;
 }
 .head h1{
     margin-left: 2.5rem;

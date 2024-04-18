@@ -225,7 +225,7 @@ img.displaySlide {
     font-weight: 400;
 }
 .box button{
-    width: 40%;
+    width: 120%;
     padding: 0.3rem;
     border-radius: 10px;
     /* background-color: beige; */
@@ -465,6 +465,7 @@ footer{
     justify-content: center;
     align-items: center;
     border-top: 1px solid green;
+    padding: 0.5rem;;
 }
 .footer-maintain-in{
     width: 100%;
