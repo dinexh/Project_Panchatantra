@@ -28,7 +28,8 @@ nav{
 }
 .nav-in{
     /* background-color: #344E41; */
-    background-color: black;
+    /* background-color: black; */
+    background-color: #132a13;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -117,11 +118,13 @@ img.displaySlide {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightgreen;
+    background-color: #132a13;
     color: white;
+    position: absolute;
+    bottom: 0;
 }
 .Explore p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 600;
 
 }
@@ -412,7 +415,7 @@ img.displaySlide {
 /* Footer */
 footer{
     width: 100%;
-    background-color: rgb(62, 183, 62);
+    background-color: #132a13;
     padding: 1rem;
     display: flex;
     flex-direction: column;
