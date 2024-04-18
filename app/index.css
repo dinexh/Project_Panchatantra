@@ -191,160 +191,34 @@ img.displaySlide {
 }
 .About-Phants-in-one button{
     /* border: 10px; */
-    width: 8%;
+    width: 10%;
     padding: 0.5rem;
     border-radius: 10px;
     background-color: #1A4301;
+    border: none;
     color: white;
     margin-top: 1rem;
 }
-.About-Phants-in-one button a{
-    text-decoration: none;
-    color: white;
+.About-Plants-in-three img{
+   border-top-right-radius: 40px;
+   border-bottom-right-radius: 40px;
 }
-/* Events Starts */
-.Events{
-    width: 100%;
-    /* background-color: #73A942; */
-    background-color: #378b29;
-    background-image: linear-gradient(315deg, #378b29 0%, #74d680 74%);
-    padding: 2rem;
+.join{
     display: flex;
+    align-items: center;
     justify-content: center;
-    align-content: center;
+    margin-top: 2rem;
 }
-.Events-in{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.Events-in-two{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.Events-in-two-in{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.Events-box{
-    position: relative;
-    width: 30%;
-}
-.Events-box img{
-    width: 100%;
-    border-radius: 2%;
-}
-.event-box-text{
-    position: absolute;
-    top: 80%;
-    width: 100%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    /* background-color: #378b29; */
+.join button{
+    border: none;
+    width: 6rem;
+    height: 3rem;
+    font-size: 1rem;
+    background-color: #1A4301;
     color: white;
-    padding: 0.5rem;
     border-radius: 10px;
 }
-.OurAim{
-    background-color: #AAD576;
-    width: 100%;
-}
-.OurAim-in{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    /* padding: 2rem; */
-    /* margin: 1rem; */
-    text-align: center;
-}
-
-.OurAim-in-One img{
-   width: 110vh;
-   height: 70vh;
-}
-
-.stats-in{
-    background-color: var(--color3);
-    display: flex;
-    justify-content: space-around;
-    padding: 2rem 0;
-}
-
-.stats-one,.stats-two,.stats-three,.stats-four{
-        color: var(--color2);
-        background-color: var(--color1);
-        text-wrap: wrap;
-        border-radius: 3%;
-        padding: 2rem;
-        text-align: center;
-        width: 17%;
-}
-
-.stats-in p{
-    font-size: 2rem;
-}
-
-.count{
-    font-size: 8rem;
-    font-weight: 500;
-}
-
-.news-updates-in{
-    background-color:var(--color4);
-    padding: 2rem;
-}
-
-.news-one,.news-two,.news-three{
-    width: 30%;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-}
-
-.img-container{
-    width: 100%;
-    position: relative;
-}
-    
-
-.news{
-    display: flex;
-    justify-content: space-around;
-}
-
-.news-updates-in>h1{
-    font-size: 3rem;
-    margin-bottom: 2rem;
-}
-
-.news-info{
-    padding: 0 .5rem;
-    background-color: var(--color2);
-    font-weight: 600;
-    margin-top: -10px;
-}
-
-.news-name{
-    position: absolute;
-    left: 1rem;
-    top: 1rem;
-    font-weight: 600;
-    font-size: 1rem;
-    color: var(--color2);
-}
-
-.news-date{
-    position: absolute;
-    top: 2rem;
-    left: 1rem;
-    font-weight: 600;
-    font-size: 1rem;
-    color: var(--color2);
-}
-
-.news-one:hover,.news-two:hover,.news-three:hover{
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    transform: scale(1.05);
+.texts{
+margin-left:5rem ;
+text-align: justify;
 }
