@@ -131,7 +131,9 @@ img.displaySlide {
     width: 8%;
     padding: 0.5rem;
     border-radius: 10px;
-    background-color: beige;
+    /* background-color: beige; */
+    background-color: lightgreen;
+    padding: 0.5rem;
     color: black;
     margin-top: 1rem;
 }
@@ -139,18 +141,6 @@ img.displaySlide {
     text-decoration: none;
     color: white;
 }
-
-.OurAim{
-    /* background-color: #AAD576; */
-    width: 100%;
-}
-.OurAim-in{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-}
-
 /* News and updates starts here */
 .news-updates{
     width: 100%;
@@ -189,7 +179,7 @@ img.displaySlide {
 }
 
 .news-info{
-    padding: 0 .5rem;
+    padding: 1rem;
     font-weight: 600;
     margin-top: -10px;
 }
