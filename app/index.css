@@ -92,21 +92,20 @@ img.displaySlide {
     position: relative;
     /* height: 100vh; */
 }
-.prev {
-    left: 0;
-}
 
-.next {
-    right: 0;
-}
 .text{
     /* margin-bottom: 2rem;
     display: flex; */
     position: absolute;
-    top:50%;
-    left: 80%;
-    font-size: 2rem;
+    top:85%;
+    left: 5%;
+    font-size: 1.5rem;
+    font-weight: 400;
     color: white;
+    /* background-color:  */
+    backdrop-filter: blur(3px);
+    padding: 1rem;
+    border-radius:10px;
 }
 /* Hero Ends here */
 /* About Plant starts here */
