@@ -17,7 +17,6 @@
 html {
     scroll-behavior: smooth;
     width: 100%;
-    /* background-color: beige; */
 }
 nav{
     padding: 0rem;
@@ -27,8 +26,6 @@ nav{
     width: 100%;
 }
 .nav-in{
-    /* background-color: #344E41; */
-    /* background-color: black; */
     background-color: #132a13;
     width: 100%;
     display: flex;
@@ -77,18 +74,19 @@ nav a{
     position: relative;
     width: 100%;
     overflow: hidden;
+    height: 87.5vh;
 }
 
 .slider img {
     width: 100%;
     display: none;
-    height: 87vh;
-    /* object-fit: contain; */
-    /* position: absolute; */
+    object-fit: contain;
+
 }
 
 img.displaySlide {
     display: block;
+    
 }
 
 .slides{
@@ -97,8 +95,6 @@ img.displaySlide {
 }
 
 .text{
-    /* margin-bottom: 2rem;
-    display: flex; */
     position: absolute;
     top:85%;
     left: 5%;
@@ -121,7 +117,6 @@ img.displaySlide {
     background-color: #132a13;
     color: white;
     position: absolute;
-    bottom: 0;
 }
 .Explore p{
     font-size: 1.2rem;
@@ -151,10 +146,15 @@ img.displaySlide {
 .Mission-in img{
   width: 100%;
 }
+.mission-in-one{
+    padding: 1rem;
+    border: 8px;
+    backdrop-filter: blur(3px);
+}
 /* Impact report */
 .impact{
     width: 100%;
-    padding: 2rem;
+    padding: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,6 +175,18 @@ img.displaySlide {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
+    padding: 0rem 0rem 3rem 0rem;
+}
+.impact-one h1 {
+    color: black;
+    font-weight: 600;
+}
+.impact-one p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 70%;
+    text-align: center;
 }
 .impact-two{
     width: 100%;
@@ -182,7 +194,6 @@ img.displaySlide {
     justify-content: space-around;
     align-items: center;
     gap: 10px;
-    padding: 2rem;
 }
 .box{
     width: 30%;
@@ -194,6 +205,7 @@ img.displaySlide {
     padding: 2rem;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     /* background-color: #A3B18A; */
+    border-bottom: 3px solid #132a13;
 }
 .count{
     /* background-color: red; */
@@ -208,6 +220,9 @@ img.displaySlide {
     /* background-color: beige; */
     color: black;
     margin-top: 1rem;
+    background-color: #132a13;
+    border: 1px solid black;
+    color: white;
 }
 /* Stories
  */
