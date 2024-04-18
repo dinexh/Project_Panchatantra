@@ -152,11 +152,6 @@ img.displaySlide {
     text-align: center;
 }
 
-.OurAim-in-One img{
-   width: 110vh;
-   height: 70vh;
-}
-
 /* News and updates starts here */
 .news-updates{
     width: 100%;
@@ -177,8 +172,11 @@ img.displaySlide {
 .img-container{
     width: 100%;
     position: relative;
+    /* padding: em; */
 }
-    
+.img-container p{
+    padding: 1remp;
+}
 
 .news{
     display: flex;
@@ -221,6 +219,9 @@ img.displaySlide {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* color: var(--color1)
+; */
+/* background-color: var(--color3); */
 }
 .partnership-in{
     width: 100%;
@@ -321,18 +322,23 @@ img.displaySlide {
 /* Footer */
 footer{
     width: 100%;
-    background-color: lightgreen;
+    background-color: #143601;
     padding: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 .footer-in{
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
+}
+.footer-in-one h1{
+    font-size: 2rem;
+    font-weight: 400;
 }
 .footer-maintain{
     width: 100%;
@@ -369,16 +375,19 @@ footer{
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem;
+    /* justify-content: space-around;
+    align-items: center; */
+    /* background-color: red; */
+    /* margin-bottom: 1.5rem; */
 }
+/* .footer-in-two-in h1{
+    margin-bottom: 2.5rem;
+} */
 .footer-in-two-in a{
     text-decoration: none;
-    color: var(--color1);
     font-size: 1rem;
     font-weight: 600;
-    text-align: start;
+    color: rgb(215, 200, 200)    ;
 }
 .footer-in-three{
     width: 30%;
@@ -386,9 +395,23 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 0.4rem;
 }
 .footer-in-three-in{
     width: 100%;
+    padding: 1rem;
+}
+.footer-in-two-in h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.footer-in-two-in p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.footer-in-three-in h1{
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 .icons{
     padding: 2rem;
