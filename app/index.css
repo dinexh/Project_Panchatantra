@@ -13,11 +13,21 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+.container{
+     background-image: url('../Assets/background2.jpeg');
+    /* background-size: cover; */
+    /* background-repeat: repeat;  */
 html {
     scroll-behavior: smooth;
     width: 100%;
 }
+.main-container{
+    /* background-image: url(../Assets/HeroThree.jpeg); */
+    background-size: cover;
+    background-repeat: repeat;
+    color: white;
+}
+
 nav{
     padding: 0rem;
     display: flex;
@@ -127,12 +137,14 @@ img.displaySlide {
 .Mission{
     width: 100%;
     padding: 6rem;
-    background-image: url(../Assets/About-us-p1.jpeg);
+    /* background-image: url(../Assets/About-us-p1.jpeg); */
     background-size: cover;
     display: flex;
-    color: white;
+    /* color: black; */
     justify-content: center;
+    /* background-color: beige; */
     align-items: center;
+    color: white;
 }
 .Mission-in{
     width: 100%;
@@ -160,7 +172,6 @@ img.displaySlide {
     color: white;
     margin-top: 1rem;
     border-color: transparent;
-
 }
 /* Impact report */
 .impact{
@@ -170,8 +181,11 @@ img.displaySlide {
     justify-content: center;
     align-items: center;
     /* background-color: var(--color1); */
+    /* background-color: beige; */
     color: black;
     /* background-color: #DAD7CD; */
+    /* backdrop-filter: blur(3px); */
+    color: white;
 }
 .impact-in{
     width: 100%;
@@ -204,6 +218,7 @@ img.displaySlide {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    backdrop-filter: blur(3px);
     gap: 10px;
 }
 .box{
@@ -235,45 +250,10 @@ img.displaySlide {
     border: 1px solid black;
     color: white;
 }
-/* Stories
- */
-/* About Plant starts here */
-.About-Plants{
-    /* background-color: #AAD576; */
-    width: 100%;
-
-}
-.About-Plants-in{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2rem;
-}
-.About-Phants-in-one{
-    width: 50%;
-}
-.About-Plants-in-two img{
-    mix-blend-mode: multiply;
-}
-.About-Phants-in-one button{
-    /* border: 10px; */
-    width: 8%;
-    padding: 0.5rem;
-    border-radius: 10px;
-    /* background-color: beige; */
-    background-color: lightgreen;
-    padding: 0.5rem;
-    color: black;
-    margin-top: 1rem;
-}
-.About-Phants-in-one button a{
-    text-decoration: none;
-    color: white;
-}
-
 /* News and updates starts here */
 .news-updates{
     width: 100%;
+    color: white;
     padding: 2rem;
 }
 .news-updates-in{
@@ -301,7 +281,9 @@ img.displaySlide {
     display: flex;
     justify-content: space-around;
 }
-
+.news-updates{
+    backdrop-filter: blur(3px);
+}
 .news-updates-in>h1{
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -334,13 +316,19 @@ img.displaySlide {
 /* Partnership Page */
 .partnership{
     width: 100%;
+    color: white;
     padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background-image: url(../Assets/Partnership_background.webp); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    backdrop-filter: blur(3px);
     /* color: var(--color1)
 ; */
 /* background-color: var(--color3); */
+    /* background-color: beige; */
 }
 .partnership-in{
     width: 100%;
@@ -363,6 +351,8 @@ img.displaySlide {
 }
 .partnership-one p{
     font-size: 1.3rem;
+    text-align: center;
+    font-weight: 400;
 }
 .partnership-two{
     width: 50%;
@@ -375,13 +365,18 @@ img.displaySlide {
     border-radius: 10%;
     mix-blend-mode: multiply;
 }
+.images-one img{
+    mix-blend-mode: multiply;
+}
 .join-us{
+    color: white;
+    backdrop-filter: blur(3px);
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    background-image: url(../Assets/join\ us\ background.webp);
+    /* background-image: url(../Assets/join\ us\ background.webp); */
     background-size: cover;
 }
 .join-us-in{
@@ -441,7 +436,6 @@ img.displaySlide {
     display: flex;
     justify-content: space-around;
 }
-
 /* Footer */
 footer{
     width: 100%;
