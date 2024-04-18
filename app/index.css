@@ -79,7 +79,7 @@ nav a{
 .slider img {
     width: 100%;
     display: none;
-    height: 93vh;
+    height: 87vh;
     /* object-fit: contain; */
     /* position: absolute; */
 }
@@ -108,6 +108,44 @@ img.displaySlide {
     border-radius:10px;
 }
 /* Hero Ends here */
+/* Explore section starts here */
+.Explore{
+    width: 100%;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--color1);
+    color: white;
+}
+.Explore p{
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+/* Mission Section starts her */
+.Mission{
+    width: 100%;
+    padding: 6rem;
+    background-image: url(../Assets/About-us-p1.jpeg);
+    background-size: cover;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #AAD576; */
+    /* color: white; */
+}
+.Mission-in{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Mission-in img{
+  width: 100%;
+}
 /* About Plant starts here */
 .About-Plants{
     /* background-color: #AAD576; */
