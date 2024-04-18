@@ -17,6 +17,7 @@
 html {
     scroll-behavior: smooth;
     width: 100%;
+    /* background-color: beige; */
 }
 nav{
     padding: 0rem;
@@ -26,7 +27,8 @@ nav{
     width: 100%;
 }
 .nav-in{
-    background-color: #143601;
+    /* background-color: #344E41; */
+    background-color: black;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -115,7 +117,7 @@ img.displaySlide {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:var(--color1);
+    background-color: lightgreen;
     color: white;
 }
 .Explore p{
@@ -146,6 +148,66 @@ img.displaySlide {
 .Mission-in img{
   width: 100%;
 }
+/* Impact report */
+.impact{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: var(--color1); */
+    color: black;
+    /* background-color: #DAD7CD; */
+}
+.impact-in{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.impact-one{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.impact-two{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 2rem;
+}
+.box{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    padding: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    /* background-color: #A3B18A; */
+}
+.count{
+    /* background-color: red; */
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.box button{
+    width: 40%;
+    padding: 0.3rem;
+    border-radius: 10px;
+    /* background-color: beige; */
+    color: black;
+    margin-top: 1rem;
+}
+/* Stories
+ */
 /* About Plant starts here */
 .About-Plants{
     /* background-color: #AAD576; */
@@ -179,6 +241,7 @@ img.displaySlide {
     text-decoration: none;
     color: white;
 }
+
 /* News and updates starts here */
 .news-updates{
     width: 100%;
@@ -349,7 +412,7 @@ img.displaySlide {
 /* Footer */
 footer{
     width: 100%;
-    background-color: #143601;
+    background-color: rgb(62, 183, 62);
     padding: 1rem;
     display: flex;
     flex-direction: column;
