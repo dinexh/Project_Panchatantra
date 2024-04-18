@@ -96,12 +96,12 @@ img.displaySlide {
 
 .text{
     position: absolute;
-    top:85%;
+    top:58%;
     left: 5%;
     font-size: 1.5rem;
     font-weight: 400;
     color: white;
-    /* background-color:  */
+    /* background-color: red; */
     backdrop-filter: blur(3px);
     padding: 1rem;
     border-radius:10px;
@@ -133,23 +133,34 @@ img.displaySlide {
     color: white;
     justify-content: center;
     align-items: center;
-    /* background-color: #AAD576; */
-    /* color: white; */
 }
 .Mission-in{
     width: 100%;
     display: flex;
+    backdrop-filter: blur(3px);
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .Mission-in img{
   width: 100%;
+  
 }
 .mission-in-one{
     padding: 1rem;
-    border: 8px;
-    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    /* color: rgb(43, 201, 43); */
+}
+.mission-in-one button
+{
+    width: 10%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: #132a13;
+    color: white;
+    margin-top: 1rem;
+    border-color: transparent;
+
 }
 /* Impact report */
 .impact{
