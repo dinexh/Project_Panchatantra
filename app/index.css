@@ -131,7 +131,7 @@ img.displaySlide {
 .Mission{
     width: 100%;
     padding: 6rem;
-    background-image: url(../Assets/About-us-p1.jpeg);
+    background-image: url(./Assets/About-us-p1.jpeg);
     background-size: cover;
     display: flex;
     /* color: black; */
