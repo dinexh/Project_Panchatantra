@@ -175,6 +175,84 @@ img.displaySlide {
 .mission-in-one p{
     line-height: 2rem;
 }
+/* Objectives Section starts here */
+.Objectives{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.Objectives-in{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Objectives-heading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+.Objectives-heading h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.Objectives-heading p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+
+}
+.Objectives-in-one{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: rem;
+    gap: 15px;
+}
+.Objectives-box{
+    /* background-color: red; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 4rem;
+    /* margin: 1rem; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-bottom: 3px solid #132a13;
+}
+.Objectives-box h3{ 
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.Objectives-box p{
+    font-size: 1rem;
+    font-weight: 400;
+    /* text-align: center; */
+}
+.Objectives-box button{
+    width: 120%;
+    padding: 0.3rem;
+    border-radius: 10px;
+    background-color: #132a13;
+    /* color: white; */
+    /* color: black; */
+    color: white;
+    margin-top: 1rem;
+    border-color: transparent;
+
+}
 /* Impact report */
 .impact{
     width: 100%;
