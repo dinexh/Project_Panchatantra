@@ -131,15 +131,16 @@ img.displaySlide {
 .Mission{
     width: 100%;
     padding: 6rem;
-    background-image: url(./Assets/About-us-p1.jpeg);
+    /* background-image: url(./Assets/About-us-p1.jpeg); */
+    
     background-size: cover;
     display: flex;
     /* color: black; */
     justify-content: center;
     /* background-color: beige; */
     align-items: center;
-    color: white;
-    /* color: black; */
+    /* color: white; */
+    color: black;
 }
 .Mission-in{
     width: 100%;
@@ -147,6 +148,7 @@ img.displaySlide {
     backdrop-filter: blur(3px);
     flex-direction: column;
     justify-content: center;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; */
     align-items: center;
 }
 .Mission-in img{
@@ -169,6 +171,9 @@ img.displaySlide {
     color: white;
     margin-top: 1rem;
     border-color: transparent;
+}
+.mission-in-one p{
+    line-height: 2rem;
 }
 /* Impact report */
 .impact{
