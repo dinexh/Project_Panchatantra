@@ -111,7 +111,7 @@ img.displaySlide {
 }
 /* Hero Ends here */
 /* Explore section starts here */
-.Explore{
+/* .Explore{
     width: 100%;
     padding: 0.8rem;
     display: flex;
@@ -126,7 +126,7 @@ img.displaySlide {
     font-size: 1.2rem;
     font-weight: 600;
 
-}
+} */
 /* Mission Section starts her */
 .Mission{
     width: 100%;
@@ -156,7 +156,7 @@ img.displaySlide {
   
 }
 .mission-in-one{
-    padding: 1rem;
+    padding: 4rem;
     border-radius: 10px;
     /* color: rgb(43, 201, 43); */
 }
