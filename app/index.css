@@ -170,7 +170,7 @@ img.displaySlide {
     width: 25%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     border-bottom: 3px solid #132a13;
@@ -181,7 +181,6 @@ img.displaySlide {
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
-    padding-top: 2rem;
 }
 .Objectives-box p{
     font-size: 1rem;
@@ -361,7 +360,7 @@ img.displaySlide {
     padding: 4rem;
 }
 .partnership-one p{
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-align: center;
     font-weight: 400;
 }
@@ -369,7 +368,7 @@ img.displaySlide {
     width: 50%;
     padding: 3rem;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .partnership-two img{
@@ -402,6 +401,16 @@ img.displaySlide {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+.join-us-in-one h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.join-us-in-two p{
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
 }
 .join-us-in-two{
     width: 50%;
@@ -423,19 +432,22 @@ img.displaySlide {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
+    /* background-color: red; */
 }
 .join-us-in-two button{
     width: 20%;
-    padding: 0.3rem;
+    padding: 0.8rem;
     border-radius: 10px;
     background-color: #132a13;
     color: white;
     text-decoration: none;
+    border: 1px solid transparent;
 }
 .join-us-in-two a{
     text-decoration: none;
     color: white;
+    font-size: 0.8rem;
 }
 .join-us-two-buttons{
     width: 100%;
