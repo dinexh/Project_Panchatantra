@@ -124,6 +124,37 @@ img.displaySlide {
 .mission-in-one p{
     line-height: 2rem;
 }
+/* Panchatantra Section Starts here */
+.Panchatantra{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.Panchatantra-in{
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.Panchatantra-in-one{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Panchatantra-in-two{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 /* Objectives Section starts here */
 .Objectives{
     width: 100%;
