@@ -36,7 +36,7 @@ function nextSlide() {
     showSlide(slideIndex);
 }
 
-// Define the target count for each box
+
 const targetCounts = {
     treesPlantedCounter: 500,
     habitatsProtectedCounter: 500,

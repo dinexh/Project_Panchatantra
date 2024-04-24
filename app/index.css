@@ -170,20 +170,23 @@ img.displaySlide {
     width: 25%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    padding: 4rem;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     border-bottom: 3px solid #132a13;
+    height: 45vh;
+    padding: 2rem 1rem;
 }
 .Objectives-box h3{ 
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
+    padding-top: 2rem;
 }
 .Objectives-box p{
     font-size: 1rem;
     font-weight: 300;
+    text-align: center;
 }
 .Objectives-box button{
     width: 120%;
@@ -227,6 +230,7 @@ img.displaySlide {
     font-weight: 400;
     width: 70%;
     text-align: center;
+
 }
 .impact-two{
     width: 100%;
@@ -237,14 +241,18 @@ img.displaySlide {
     gap: 10px;
 }
 .box{
-    width: 30%;
+    width: 33%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 2rem 0rem;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     border-bottom: 3px solid #132a13;
+    /* background-color: red; */
+}
+.box p{
+    text-align: center;
 }
 .count{
     padding: 2rem;
