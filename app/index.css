@@ -96,42 +96,73 @@ img.displaySlide {
     backdrop-filter: blur(3px);
     padding: 1rem;
 }
-/* Mission Section starts her */
-.Mission{
+/* Panchatantra Starts here */
+.Panchatantra{
     width: 100%;
     padding: 2rem;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     color: black;
 }
-.mission-in-one{
+.Panchatantra-in{
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+.Panchatantra-in-one{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 2rem;
-    width:100%;
-    border-radius: 10px;
 }
-.mission-in-one button
-{
-    width: 10%;
-    padding: 0.5rem;
-    border-radius: 10px;
-    background-color: #132a13;
-    color: white;
-    margin-top: 1rem;
-    border-color: transparent;
+.Panchatantra-in-one h1{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #132a13;
 }
-.mission-in-one p{
-    line-height: 2rem;
+.Panchatantra-in-one p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    /* width: 70%; */
+    text-align: center;
+    /* text-align: center; */
 }
+.Panchatantra-in-two{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.Panchatantra-in-two img{
+    mix-blend-mode: multiply;
+}
+.Panchatantra-in-two p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #132a13;
+}
+/* Timeline Starts here */
 .timeline{
+    width: 100%;
+    padding: 1rem;
     position: relative;
-    max-width:1200px ;
-    margin: 100px auto;
-
+    margin: 4rem auto;
+}
+.timeline-heading h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: black;
+    text-align: center;
 }
 .timeline-in{
-    padding:10px 50px;
+    padding: 2rem 1.5rem;
     position: relative;
     width: 50%;
     animation:movedown 1s linear forwards ;
@@ -150,12 +181,33 @@ img.displaySlide {
     }
 }
 .text-box{
-    padding: 20px 30px;
-    background: #fff;
+    padding: 1rem;
+    /* background: #fff; */
     position: relative;
     border-radius: 6px;
     font-size: 1.2rem;
     font-weight: 200;
+    /* background-color: red; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-bottom: 3.5px solid #132a13;
+}
+.text-box h2{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.text-box p{
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+.text-box button{
+    width: 20%;
+    padding: 0.3rem;
+    border-radius: 10px;
+    background-color: #132a13;
+    color: white;
+    margin-top: 1rem;
+    border: 1px solid black;
+
 }
 .left{
    left: 0; 
@@ -167,17 +219,19 @@ img.displaySlide {
     content: '';
     position: absolute;
     width: 6px;
-    height:100%;
-    background:black;
-    top:0;
+    height:0%;
+    background:#132a13;
+    top:8%;
     left: 50%;
     margin-left: -3px;
     z-index: -1;
     animation: moveline 6s linear forwards;
+    /* padding-top: 1rem; */
+    /* background: red; */
 }
 @keyframes moveline {
     0%{
-        height: 0;
+        height: 0%;
     }
     100%{
         height:100%;
@@ -185,10 +239,6 @@ img.displaySlide {
 }
 .text-box h2{
     font-weight: 600;
-}
-.text-box small{
-    display: inline-block;
-    margin-bottom: 15px;
 }
 .left-arrow{
     height: 0;
