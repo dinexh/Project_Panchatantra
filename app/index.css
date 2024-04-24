@@ -44,7 +44,7 @@ nav{
     align-items: center;
 }
 .nav-in-two{
-    width: 50%;
+    width: 70%;
 }
 .nav-in-two-in{
     display: flex;
@@ -111,6 +111,8 @@ img.displaySlide {
 .Image{
     position: relative;
     width: 100%;
+    /* background: url(./Assets/Plantation_Unupdated.jpeg) no-repeat; */
+    background-size: cover;
     /* background-color: red; */
 }
 .Image img{
@@ -118,6 +120,13 @@ img.displaySlide {
     /* object; */
     height: 95vh;  
 }
+/* .image-box-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
 .text{
     position: absolute;
     top: 35%;
@@ -131,6 +140,8 @@ img.displaySlide {
 .text h1{
     font-size: 4rem;
     font-weight: 400;
+    /* background-color: red; */
+    /* margin-right: 16rem; */
 }
 .home-box{
     /* background-color: red; */
@@ -161,6 +172,9 @@ img.displaySlide {
     justify-content: center;
     align-items: center;
     color: black;
+    /* background-image: url(../app/Assets/WhyBlogImage-1.jpeg); */
+    /* background: var(--color1); */
+    /* backdrop-filter: blur(3px; */
 }
 .Panchatantra-in{
     width: 100%;
@@ -330,6 +344,66 @@ img.displaySlide {
 }
 .timeline-in:nth-child(4){
     animation-delay: 3s;
+}
+/* Activites starts here */
+.activities{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-top: 1rem;
+}
+.activities-in{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.activites-heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.activities-heading h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.activites-boxes-one{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+.activites-boxes-two{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.activity-box{
+    width: 30%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-bottom: 3px solid #132a13;
+}
+.activity-box p{
+    text-align: center;
+}
+.activity-box img{
+    width: 100%;
+    height: 30%;
 }
 /* Impact report */
 .impact{
