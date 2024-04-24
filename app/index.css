@@ -69,7 +69,7 @@ nav a{
     font-weight: 400;
 }
 /* Hero Starts here */
-.slider {
+/* .slider {
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -95,6 +95,63 @@ img.displaySlide {
     color: white;
     backdrop-filter: blur(3px);
     padding: 1rem;
+} */
+/* HeroSection-two starts here */
+.HeroSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    /* padding: 1rem; */
+}
+.HeroSection-in{
+    width: 100%;
+}
+.Image{
+    position: relative;
+    width: 100%;
+    /* background-color: red; */
+}
+.Image img{
+    width: 100%;
+    /* object; */
+    height: 95vh;  
+}
+.text{
+    position: absolute;
+    top: 35%;
+    left: 32%;
+    /* transform: translate(-50%,-50%); */
+    width: 50%;
+    /* color:#132a13; */
+    color: white;
+    /* backdrop-filter: blur(3px); */
+}
+.text h1{
+    font-size: 4rem;
+    font-weight: 400;
+}
+.home-box{
+    /* background-color: red; */
+    position: absolute;
+    top: 48%;
+    left: 38%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.home-box p{
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+.counter{
+    font-size: 4rem;
+    font-weight: 600;
 }
 /* Panchatantra Starts here */
 .Panchatantra{
