@@ -403,7 +403,8 @@ img.displaySlide {
 }
 .activity-box img{
     width: 100%;
-    height: 30%;
+    /* height: 50vh; */
+
 }
 /* Impact report */
 .impact{
