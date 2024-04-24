@@ -44,7 +44,7 @@ nav{
     align-items: center;
 }
 .nav-in-two{
-    width: 50%;
+    width: 70%;
 }
 .nav-in-two-in{
     display: flex;
@@ -69,7 +69,7 @@ nav a{
     font-weight: 400;
 }
 /* Hero Starts here */
-.slider {
+/* .slider {
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -95,6 +95,74 @@ img.displaySlide {
     color: white;
     backdrop-filter: blur(3px);
     padding: 1rem;
+} */
+/* HeroSection-two starts here */
+.HeroSection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    /* padding: 1rem; */
+}
+.HeroSection-in{
+    width: 100%;
+}
+.Image{
+    position: relative;
+    width: 100%;
+    /* background: url(./Assets/Plantation_Unupdated.jpeg) no-repeat; */
+    background-size: cover;
+    /* background-color: red; */
+}
+.Image img{
+    width: 100%;
+    /* object; */
+    height: 95vh;  
+}
+/* .image-box-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+.text{
+    position: absolute;
+    top: 35%;
+    left: 32%;
+    /* transform: translate(-50%,-50%); */
+    width: 50%;
+    /* color:#132a13; */
+    color: white;
+    /* backdrop-filter: blur(3px); */
+}
+.text h1{
+    font-size: 4rem;
+    font-weight: 400;
+    /* background-color: red; */
+    /* margin-right: 16rem; */
+}
+.home-box{
+    /* background-color: red; */
+    position: absolute;
+    top: 48%;
+    left: 38%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.home-box p{
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+.counter{
+    font-size: 4rem;
+    font-weight: 600;
 }
 /* Panchatantra Starts here */
 .Panchatantra{
@@ -104,6 +172,9 @@ img.displaySlide {
     justify-content: center;
     align-items: center;
     color: black;
+    /* background-image: url(../app/Assets/WhyBlogImage-1.jpeg); */
+    /* background: var(--color1); */
+    /* backdrop-filter: blur(3px; */
 }
 .Panchatantra-in{
     width: 100%;
@@ -273,6 +344,66 @@ img.displaySlide {
 }
 .timeline-in:nth-child(4){
     animation-delay: 3s;
+}
+/* Activites starts here */
+.activities{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-top: 1rem;
+}
+.activities-in{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.activites-heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+.activities-heading h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.activites-boxes-one{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem;
+}
+.activites-boxes-two{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.activity-box{
+    width: 30%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-bottom: 3px solid #132a13;
+}
+.activity-box p{
+    text-align: center;
+}
+.activity-box img{
+    width: 100%;
+    height: 30%;
 }
 /* Impact report */
 .impact{

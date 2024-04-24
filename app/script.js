@@ -1,29 +1,22 @@
-const slides = document.querySelectorAll('.slider img');
-let slideIndex = 0;
-let intervalId = null;
+// Counter function
+function startCounter() {
+    // Initial count
+    let count = 0;
 
-document.addEventListener('DOMContentLoaded', initializeSlider);
+    // Update counter every 200 milliseconds (adjust as needed)
+    const intervalId = setInterval(() => {
+        count++;
+        document.getElementById('counter').innerText = count;
 
-function initializeSlider() {
-    if (slides.length > 0) {
-        slides[slideIndex].classList.add('displaySlide');
-        intervalId = setInterval(nextSlide, 2000);
-    }
+        // Stop the counter when it reaches 30
+        if (count >= 30) {
+            clearInterval(intervalId);
+        }
+    }, 100); // Update interval in milliseconds (adjust as needed)
 }
 
-function showSlide(index) {
-    if (index >= slides.length) {
-        slideIndex = 0;
-    } else if (index < 0) {
-        slideIndex = slides.length - 1;
-    }
-
-    slides.forEach(slide => {
-        slide.classList.remove('displaySlide');
-    });
-
-    slides[slideIndex].classList.add('displaySlide');
-}
+// Start the counter when the page loads
+window.onload = startCounter;
 
 function prevSlide() {
     clearInterval(intervalId);
