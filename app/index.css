@@ -116,9 +116,9 @@ img.displaySlide {
     /* background-color: red; */
 }
 .Image img{
+    /* object-fit: contain; */
     width: 100%;
-    /* object; */
-    height: 95vh;  
+    height: 97vh;
 }
 /* .image-box-in{
     display: flex;
