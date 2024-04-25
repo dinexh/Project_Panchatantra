@@ -1,4 +1,4 @@
-@media screen and (max-width:2400px) {
+@media (max-width:2400px) {
 .text{
     /* background-color: red; */
     width: 28%;
@@ -7,14 +7,16 @@
 }
 .text h1{
     font-size: 5.3rem;
-    /* box-shadow: 2px 2px 2px 2px; */
-    /* text-shadow: 2px grey; */
 }
 .box-text{
-    /* background-color: red; */
     left: 32.5%;
 }
 .box-text p{
     font-size: 2rem;
 }
+}
+@media screen and (max-width: 1440px) {
+    .image-box-in{
+        display: none;
+    }
 }

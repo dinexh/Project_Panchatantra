@@ -127,6 +127,9 @@ img.displaySlide {
     align-items: center;
     text-align: center;
 } */
+/* .image-box-in{
+    display: none;
+} */
 .text{
     position: absolute;
     top: 35%;
@@ -138,7 +141,8 @@ img.displaySlide {
     /* backdrop-filter: blur(3px); */
 }
 .text h1{
-    font-size: 4rem;
+    /* background-color: red; */
+    font-size: 2rem;
     font-weight: 400;
     /* background-color: red; */
     /* margin-right: 16rem; */
