@@ -709,6 +709,7 @@ footer{
 .footer-maintain-in h2{ 
     font-size: 1rem;
     font-weight: 400;
+    text-align: center;
 }
 .footer-maintain-in span{
     color: blue;
