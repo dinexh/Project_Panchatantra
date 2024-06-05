@@ -150,9 +150,10 @@ img.displaySlide {
 .home-box{
     /* background-color: red; */
     position: absolute;
-    top: 48%;
+    top: 38%;
     left: 38%;
     width: 20%;
+    /* background-color: red; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
