@@ -671,6 +671,16 @@ img.displaySlide {
     display: flex;
     justify-content: space-around;
 }
+.join-us-two-buttons button{
+    width: 100%;
+    padding: 0.8rem;
+    /* background-color: red; */
+    border-radius: 10px;
+    background-color: #132a13;
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
 /* Footer */
 footer{
     width: 100%;
