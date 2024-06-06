@@ -5,100 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contribute</title>
     <link rel="stylesheet" href="contribute.css">
-    <link rel="stylesheet" href="../index.css">
 </head>
 <body>
     <div class="container">
         <div class="container-in">
-                <nav>
-                    <div class="nav-in">
-                        <div class="nav-in-one">
-                        <img src="./Assets/nav-icon.png" alt="">
-                       <a href="../app/index.html">Panchatantra</a>
-                        </div>
-                        <div class="nav-in-two">
-                            <div class="nav-in-two-in">
-                                <a href="index.html">About us</a>
-                                <a href="#">Our Mission</a>
-                                <a href="#">Locations</a>
-                                <a href="#">Get involved</a>
-                                <a href="#">Contact</a>
-                            </div>
-                        </div>
-                        <div class="nav-in-three">
-                            <div class="nav-in-three-in">
-                                <a href="contribute.html">Contribute</a>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-                </div>
-                </div>
-            <div class="main">
-                   <div class="form">
-                    <h1>Join us for enriching the Earth</h1>
-                    <form>
-                       <h3 class="names">Name:</h3>
-                       <input type="text" class="name" height="2rem" width="70rem" placeholder="Enter Your Name">
-                       <h3 class="names">Gender</h3>
-                       <input type="radio" class="Gender" name="Male" id="male">Male
-                       <input type="radio" name="Female" id="female">Female
-                       <h3 class="names">Mobile No.</h3>
-                       <input type="number" class="name" name="phone" id="Phone" placeholder="Enter Your Phone Number">
-                       <h3 class="names">Email Address</h3>
-                       <input type="email" class="name" placeholder="example@gmail.com">
-                       <h3 class="names">City</h3>
-                       <input type="text" class="name" height="2rem" width="70rem" placeholder="Enter Your City">
-                       <h3 class="names">State</h3>
-                       <input type="text" class="name" height="2rem" width="70rem" placeholder="Enter Your State">
-                       <h3 class="names">PIN No.</h3>
-                       <input type="number" class="name" name="phone" id="Phone" placeholder="Enter Your PIN Number">
-                    </form>
-                   </div>
-                <div class="head">
-                    <h1>Make your mark through collaboration! Submit your details and be part of our collaborative efforts</h1>
-                    <img src="../Assets/planting collab.jpeg"  height="350vh">
-                    <button>Join</button>
-                </div>
+            <div class="form">
+                <h1>Join us for enriching the Earth</h1>
+                <form>
+                    <h3 class="names">Name:</h3>
+                    <input type="text" class="name" height="2rem" width="70rem" placeholder="Enter Your Name">
+                    <h3 class="names">Gender</h3>
+                    <input type="radio" class="Gender" name="gender" value="Male" id="male"> Male
+                    <input type="radio" name="gender" value="Female" id="female"> Female
+                    <h3 class="names">Mobile No.</h3>
+                    <input type="number" class="name" name="phone" id="Phone" placeholder="Enter Your Phone Number">
+                    <h3 class="names">Email Address</h3>
+                    <input type="email" class="name" placeholder="example@gmail.com">
+                    <h3 class="names">City</h3>
+                    <input type="text" class="name" height="2rem" width="70rem" placeholder="Enter Your City">
+                    <h3 class="names">State</h3>
+                    <input type="text" class="name" height="2rem" width="70rem" placeholder="Enter Your State">
+                    <h3 class="names">PIN No.</h3>
+                    <input type="number" class="name" name="pin" id="pin" placeholder="Enter Your PIN Number">
+                </form>
             </div>
-            <footer>
-                <div class="footer-in">
-                    <div class="footer-in-one">
-                        <img src="../Assets/tree.png" height="180vh" alt="">
-                        <h1>Panchatantra</h1>
-                        <!-- <p>Every Tree has a its own Story</p> -->
-                    </div>
-                    <div class="footer-in-two">
-                        <div class="footer-in-two-in">
-                            <h1>Quick Links</h1>
-                            <a href="#">About us</a>
-                            <a href="#">Our Mission</a>
-                            <a href="#">Events</a>
-                            <a href="#">Get involved</a>
-                            <a href="#">Contact</a>
-                        </div>
-                    </div>
-                    <div class="footer-in-three">
-                        <div class="footer-in-three-in">
-                            <h1>Follow Us!</h1>
-                            <p>Stay connected with us! Follow our journey on social media for the latest updates, inspiring stories, and opportunities to get involved in our mission to save and plant trees.
-                            </p>
-                            <!-- <div class="icons">
-                             <a href="#" class="fa fa-facebook"></a> 
-                            <a href="#" class="fa fa-twitter"></a>  
-                            <a href="#" class="fa fa-instagram"></a>    
-                            <a href="#" class="fa fa-linkedin"></a>
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-maintain">
-                    <div class="footer-maintain-in">
-                        <h2>Designed and Developed by <span>ZeroOne Code Club</span> of Student Activity Center</h2>
-                        <p>Terms and conditions applied</p>
-                    </div>
-                </div>
-             </footer>   
-    
+            <div class="head">
+                <h1>Make your mark through collaboration! Submit your details and be part of our collaborative efforts</h1>
+                <img src="/app/Assets/planting collab.jpeg" alt="Planting Collaboration" height="350vh">
+                <button onclick="showAlert()">Join</button>
+                <a href="/app/index.html">
+                    <button>Back Home</button>
+                </a>
+            </div>
+        </div>    
+    </div>   
+    <script src="contribute.js"></script>
 </body>
 </html>

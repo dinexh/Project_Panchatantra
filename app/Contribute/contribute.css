@@ -4,6 +4,19 @@
     padding: 0;
    box-sizing: border-box;
    font-family: 'Poppins', sans-serif;
+   /* color: white; */
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-in{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main{
     display: flex;
