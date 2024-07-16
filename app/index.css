@@ -53,14 +53,16 @@ nav{
 .nav-in-three{
     width: 10%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
-.nav-in-three-in{
+.nav-in-three button{
     border-radius: 10px;
     background-color: green;
+    color: white;
     padding: 0.3rem;
 }
+
 nav a{
     text-decoration: none;
      color: white;
