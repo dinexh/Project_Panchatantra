@@ -38,6 +38,7 @@ nav{
     font-weight: 600;
 }
 .nav-in-one{
+    margin-left: 0.5rem;
     width: 10%;
     display: flex;
     justify-content: center;
@@ -110,17 +111,11 @@ img.displaySlide {
 .HeroSection-in{
     width: 100%;
 }
-.Image{
-    position: relative;
-    width: 100%;
-    /* background: url(./Assets/Plantation_Unupdated.jpeg) no-repeat; */
-    background-size: cover;
-    /* background-color: red; */
-}
+
 .Image img{
-    /* object-fit: contain; */
+    object-fit: cover;
     width: 100%;
-    height: 97vh;
+    height: 90vh;
 }
 /* .image-box-in{
     display: flex;
