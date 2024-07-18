@@ -28,7 +28,8 @@ nav{
     background-color: #132a13;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 1rem;
     align-items: center;
 }
 .nav-in h1{
@@ -43,7 +44,7 @@ nav{
     align-items: center;
 }
 .nav-in-two{
-    width: 70%;
+    width: 56%;
 }
 .nav-in-two-in{
     display: flex;
