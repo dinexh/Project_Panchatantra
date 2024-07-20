@@ -72,33 +72,8 @@ nav a{
     font-weight: 400;
 }
 /* Hero Starts here */
-/* .slider {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    height: 94.4vh;
-}
 
-.slider img {
-    width: 100%;
-    display: none;
-}
-
-img.displaySlide {
-    display: block;
-}
-
-.text{
-    position: absolute;
-    top:80%;
-    left: 5%;
-    font-size: 1.5rem;
-    font-weight: 200;
-    width: 33%;
-    color: white;
-    backdrop-filter: blur(3px);
-    padding: 1rem;
-} */
+} *
 /* HeroSection-two starts here */
 .HeroSection{
     width: 100%;
@@ -106,12 +81,19 @@ img.displaySlide {
     justify-content: center;
     align-items: center;
     color: black;
-    /* padding: 1rem; */
 }
 .HeroSection-in{
     width: 100%;
 }
-
+.Image{
+    position: relative;
+    width: 100%;
+}
+.text{
+    background-color: red;
+    top: -50%;
+    width: 25%;
+}
 .Image img{
     object-fit: cover;
     width: 100%;
@@ -127,23 +109,7 @@ img.displaySlide {
 /* .image-box-in{
     display: none;
 } */
-.text{
-    position: absolute;
-    top: 35%;
-    left: 32%;
-    /* transform: translate(-50%,-50%); */
-    width: 50%;
-    /* color:#132a13; */
-    color: white;
-    /* backdrop-filter: blur(3px); */
-}
-.text h1{
-    /* background-color: red; */
-    font-size: 2rem;
-    font-weight: 400;
-    /* background-color: red; */
-    /* margin-right: 16rem; */
-}
+
 .home-box{
     /* background-color: red; */
     position: absolute;
